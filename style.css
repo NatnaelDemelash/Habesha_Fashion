@@ -10,7 +10,7 @@ body {
   font-family: "Roboto Mono", monospace;
   font-size: 16px;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 ul {
@@ -48,6 +48,9 @@ h4 {
   background: #e3e6f3;
   padding: 40px 100px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -94,21 +97,22 @@ h4 {
 /* Hero Section */
 #hero {
   background: #e3e6f3;
-  height: 85vh;
+  height: 100vh;
   padding: 0 180px;
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: start;
 }
 
 #hero img {
   width: 385px;
   margin-left: 10rem;
+  margin-top: 3rem;
   border-bottom-left-radius: 1rem;
 }
 
 #hero .content {
-  margin-top: 8rem;
+  /* margin-top: 5rem; */
 }
 
 #hero .content h4 {
