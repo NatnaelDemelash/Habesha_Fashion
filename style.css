@@ -137,3 +137,111 @@ button {
   margin-top: 2.7rem;
   cursor: pointer;
 }
+
+#features{
+  height: 70vh;
+  padding: 40px 60px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#features img{
+  width: 40%;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+#features .fe-box{
+  width:315px;
+  height: 360px;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+#features .fe-box:hover{
+  background-color: #e3e6f3;
+}
+
+#features .fe-box:hover,h4{
+  margin: 1rem 0;
+  color: #943126;
+}
+
+#features .fe-box h4:nth-child(3){
+  background: #943126;
+  color: #fff;
+  padding: 4px;
+}
+
+#products{
+  padding: 40px 60px;
+  text-align: center;
+}
+
+#products .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#products .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #943126;
+  border-radius: 5px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
+  margin: 15px 0;
+  cursor: pointer;
+  transition: .3s all ease;
+  position: relative;
+}
+
+#products .pro:hover{
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+}
+
+#products .pro img{
+  width: 80%;
+  border-radius: 10px;
+}
+
+#products .pro .desc{
+  text-align: start;
+  padding: 10px 0;
+}
+
+#products .pro .desc span{
+  color: #606063;
+  font-size: 12px;
+}
+
+#products .pro .desc h5{
+  font-size: 14px;
+  padding-top: 7px;
+  color: #1a1a1a;
+}
+
+#products .pro .desc .star{
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+
+#products .pro .cart{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  background: #943126;
+  position: absolute;
+  bottom: 25px;
+  right: 14px;
+}
