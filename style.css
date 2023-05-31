@@ -111,10 +111,6 @@ h4 {
   border-bottom-left-radius: 1rem;
 }
 
-#hero .content {
-  /* margin-top: 5rem; */
-}
-
 #hero .content h4 {
   padding-bottom: 20px;
 }
@@ -125,7 +121,7 @@ h4 {
   margin-top: 0.7rem;
 }
 
-button {
+ button {
   background: #943126;
   padding: 1rem 2rem;
   color: #fff;
@@ -168,7 +164,7 @@ button {
   background-color: #e3e6f3;
 }
 
-#features .fe-box:hover,h4{
+#features .fe-box:hover,#features h4{
   margin: 1rem 0;
   color: #943126;
 }
@@ -182,6 +178,10 @@ button {
 #products{
   padding: 40px 60px;
   text-align: center;
+}
+
+#products h2{
+  color: #222;
 }
 
 #products .pro-container{
@@ -244,4 +244,111 @@ button {
   position: absolute;
   bottom: 25px;
   right: 14px;
+}
+
+
+#banner{
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-size:  cover;
+  background-image: url('./assets/bannerboximg.png');
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner h4 h2{
+  max-width: 480px;
+}
+
+#sm-banner{
+  display: flex;
+  justify-content:center;
+
+}
+
+#sm-banner .banner-box{
+  margin: 40px 30px;
+  padding: 3rem;
+  width: 580px;
+  height: 60vh;
+  background-position: center;
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-image: url('./assets/bannerBG.jpg');
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#sm-banner .banner-box:nth-child(1) h4, h2, span{
+  color: #fff;
+}
+
+#sm-banner .banner-box:nth-child(2) h4{
+  color: #fff;
+}
+
+#sm-banner .banner-box:nth-child(2){
+  background-image: url('./assets/bannerboximg.jpg');
+
+}
+
+#sm-banner button{
+  margin-top: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 1px solid #AC17E9;
+  color: #943126;
+  background: transparent;
+  transition: .3s ease-in;
+}
+
+#sm-banner button:hover{
+  background: #AC17E9;
+  color: #fff;
+  border: 0;
+}
+
+#xd-banner{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#xd-banner .banner-box{
+  margin: 40px 30px;
+  width: 400px;
+  height: 40vh;
+  background-position: center;
+  background-size:  cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#xd-banner .banner-box h2{
+  color: #000;
+} 
+
+#xd-banner .banner-box:nth-child(1){
+  background-image: url('./assets/bannerBG.png');
+}
+
+#xd-banner .banner-box:nth-child(2){
+  background-image: url('./assets/bannerboximg-6.png');
+}
+#xd-banner .banner-box:nth-child(3){
+  background-image: url('./assets/bannerboximg-5.png');
+  background-position: center;
 }
